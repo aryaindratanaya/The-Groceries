@@ -1,1 +1,1 @@
-angular.module("app", ["groceryList"]);
+angular.module("app", ["navbar", "groceryList"]);
