@@ -1,0 +1,16 @@
+{
+  "name": "the-groceries",
+  "version": "1.0.0",
+  "description": "An app to manage groceries powered with AngularJS, jQuery, and Bootstrap.",
+  "main": "index.html",
+  "author": "Indra Tanaya",
+  "dependencies": {
+    "angular": "^1.8.3",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "npx http-server ./ -a localhost -p 3000 -c-1"
+  }
+}
