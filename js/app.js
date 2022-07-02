@@ -1,1 +1,1 @@
-const app = angular.module("app", []);
+angular.module("app", ["groceryListModule"]);
