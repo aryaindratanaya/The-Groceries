@@ -13,14 +13,19 @@
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
   </head>
-  <body ng-controller="HomeCtrl">
-    <p>
-      If you see the 2 more messages below this sentence, it means the
-      <strong>AngularJS</strong>
-      and the <strong>jQuery</strong> are working.
-    </p>
-    <h1>{{angularMessage}}</h1>
-    <h1 id="j-query-message"></h1>
+  <body>
+    <nav class="navbar navbar-light bg-light mx-2">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/img/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt="The Groceries Logo"
+        />
+        The Groceries
+      </a>
+    </nav>
 
     <!-- jQuery -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
