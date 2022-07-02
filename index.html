@@ -27,9 +27,7 @@
       </a>
     </nav>
 
-    <ul ng-controller="GroceryListCtrl">
-      <li ng-repeat="grocery in groceries">{{grocery.name}}</li>
-    </ul>
+    <grocery-list></grocery-list>
 
     <!-- jQuery -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
@@ -42,6 +40,7 @@
 
     <!-- App logic -->
     <script src="./app.module.js"></script>
-    <script src="./features/grocery-list/groceryListCtrl.js"></script>
+    <script src="./features/grocery-list/groceryList.module.js"></script>
+    <script src="./features/grocery-list/groceryList.component.js"></script>
   </body>
 </html>
