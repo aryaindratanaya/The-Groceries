@@ -1,12 +1,10 @@
-<div class="container mt-3">
-  <add-grocery-btn></add-grocery-btn>
+<add-grocery-btn></add-grocery-btn>
 
-  <ul class="list-group">
-    <li
-      ng-repeat="grocery in $ctrl.groceries | orderBy: 'date'"
-      class="list-group-item"
-    >
-      {{grocery.name}}
-    </li>
-  </ul>
-</div>
+<ul class="list-group">
+  <li
+    ng-repeat="grocery in $ctrl.groceries | orderBy: 'date'"
+    class="list-group-item"
+  >
+    {{grocery.name}}
+  </li>
+</ul>
