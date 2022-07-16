@@ -1,1 +1,1 @@
-angular.module("groceryList", []);
+angular.module("groceryList", ["addGroceryBtn"]);
