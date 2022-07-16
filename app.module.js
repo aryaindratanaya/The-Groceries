@@ -1,1 +1,1 @@
-angular.module("app", ["navbar", "groceryList"]);
+angular.module("app", ["ngRoute", "navbar", "groceryList"]);
