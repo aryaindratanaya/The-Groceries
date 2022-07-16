@@ -1,6 +1,9 @@
 <div class="container mt-3">
   <ul class="list-group">
-    <li ng-repeat="grocery in $ctrl.groceries" class="list-group-item">
+    <li
+      ng-repeat="grocery in $ctrl.groceries | orderBy: 'date'"
+      class="list-group-item"
+    >
       {{grocery.name}}
     </li>
   </ul>
