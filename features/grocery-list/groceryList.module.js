@@ -1,1 +1,1 @@
-angular.module("groceryList", ["addGroceryBtn"]);
+angular.module("groceryList", ["core.grocery", "addGroceryBtn"]);
